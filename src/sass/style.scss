@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+// ABOUT
+.About{
+  font-size: 40px;
+
+
+  .blue{
+    color: white;
+    height: 500px;
+    background-color: #83D46B;
+    transform: skew(0deg,-4deg);
+    margin-top: 150px;
+
+
+    
+    &__text{
+      padding-top: 100px;
+      transform: skew(0deg,4deg);
+
+      
+    }
+  }
+  
+  .otherBlue{
+    color: white;
+    height: 300px;
+    background-color: #045F34;
+    transform: skew(0deg,4deg);
+    margin-top: -150px;
+    
+    &__text{
+      padding-top: 100px;
+      transform: skew(0deg,-4deg);
+
+    }
+  }
+
+}
+
+
+
