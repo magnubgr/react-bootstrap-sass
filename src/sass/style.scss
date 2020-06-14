@@ -1,16 +1,8 @@
+@import './partials/home';
+@import './partials/about';
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -23,60 +15,4 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-
-// ABOUT
-.About{
-  font-size: 40px;
-
-
-  .blue{
-    color: white;
-    height: 500px;
-    background-color: #83D46B;
-    transform: skew(0deg,-4deg);
-    margin-top: 150px;
-
-
-    
-    &__text{
-      padding-top: 100px;
-      transform: skew(0deg,4deg);
-
-      
-    }
-  }
-  
-  .otherBlue{
-    color: white;
-    height: 300px;
-    background-color: #045F34;
-    transform: skew(0deg,4deg);
-    margin-top: -150px;
-    
-    &__text{
-      padding-top: 100px;
-      transform: skew(0deg,-4deg);
-
-    }
-  }
-
-}
-
-
 
